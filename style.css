@@ -1,0 +1,330 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+center{
+    background-color: #fff;
+}
+img{
+    background-color: yellow;
+    color: #fff;
+    width: 550px;
+    height: 350px;
+}
+
+.main{
+    margin-top: 30px;
+    background: #fff;
+}
+
+.main h1{
+    color: yellow;
+    font-size: 65px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+
+}
+
+.time p{
+    margin-right: 30px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: center;
+    width: 550px;
+    line-height: 23px;
+}
+
+.border{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(180, 175, 175);
+    width: 550px;
+}
+
+.page2{
+    margin-top: 30px;
+
+}
+
+.page2 div{
+    font-size: 18px;
+}
+
+.step{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+
+.step1{
+  margin-right: 40px;
+ 
+}
+
+.step1 h2{
+    text-transform: uppercase;
+}
+
+.step1 p{
+    font-size: 15px;
+    width:150px;
+}
+
+.step2{
+    margin-right: 40px;
+   
+  }
+  
+  .step2 h2{
+      text-transform: uppercase;
+  }
+  
+  .step2 p{
+      font-size: 15px;
+      width:150px;
+  }
+  
+  
+  .step3 h2{
+      text-transform: uppercase;
+  }
+  
+  .step3 p{
+      font-size: 15px;
+      width:150px;
+  }
+
+.page3{
+    margin-top: 20px;
+}
+
+.page3 a{
+    text-decoration: none;
+    margin: 30px;
+}
+
+.link1{
+  background-color: yellow;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.link2{
+    border: 2px solid yellow;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.page4{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    width: 500px;
+    padding: 10px 20px;
+    
+}
+
+.page4 p{
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.icons{
+    margin: 30px;
+    font-size: 10px;
+    justify-content: space-around;
+}
+
+#facebook{
+   margin-right: 30px;
+   color: #fff;
+   background-color: #000;
+   border-radius: 50px;
+}
+
+#twitter{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+#linkedin{
+   margin-left: 30px; 
+   color: #fff;
+   background-color: #000;
+   border-radius: 50px;
+}
+
+
+
+
+/*   MEDIA QUARIES */
+
+@media (max-width: 280px){
+    img{
+        background-color: yellow;
+        color: #fff;
+        width: 320px;
+        height: 350px;
+    }
+
+
+.main{
+    margin-top: 30px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h1{
+    color: yellow;
+    font-size: 40px;
+}
+
+
+.time{
+    display: flex;
+    justify-content: center;
+
+}
+
+.time p{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    line-height: 23px;
+}
+
+.border{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(180, 175, 175);
+    width: 200px;
+}
+
+.step{
+    display:block;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+.step1 h2{
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.step1 p{
+    font-size: 15px;
+    width:200px;
+}
+
+.step2{
+    margin-top: 25px;
+   
+  }
+  
+  .step2 h2{
+      text-transform: uppercase;
+      font-size: 23px;
+  }
+  
+  .step2 p{
+      font-size: 15px;
+      width:200px;
+  }
+  
+  .step3{
+      margin-top: 25px;
+      margin-right: 10px;
+  }
+  .step3 h2{
+      text-transform: uppercase;
+      font-size: 23px;
+  }
+  
+  .step3 p{
+      font-size: 15px;
+      width:200px;
+  }
+
+.page3{
+    display: block;
+}
+  .page3 a{
+    text-decoration: none;
+}
+
+.link1{
+  background-color: yellow;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.link2{
+    border: 2px solid yellow;
+    color: #000;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 25px;
+    
+    
+  }
+
+ 
+.page4{
+   
+    margin-top: 50px;
+    display: block;
+    background: #000;
+    color: #fff;
+    width: 200px;
+  padding: 10px;
+
+}
+
+.page4 p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    transform: translateX(20px);
+}
+
+
+
+
+
+}
+
